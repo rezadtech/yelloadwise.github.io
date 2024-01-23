@@ -237,8 +237,8 @@ $$
 The Lorentz force law can be expressed using the four velocity \\( c + \mathbf{v} \\) and gives the result for the power and force experienced by both electric and magnetic monopoles:
 
 $$
-  (qc + q\mathbf{v})(-\mathbf{E}+c\mathbf{B}I)
-  = -\underbrace{q(\mathbf{E}\cdot\mathbf{v})}_{\textrm{power}} - c\underbrace{q(\mathbf{E} + \mathbf{v}\times\mathbf{B})}_{\textrm{electric force}} + c^2\underbrace{q\left(\mathbf{B} - \mathbf{v}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic force}} I + c\underbrace{q(\mathbf{B}\cdot\mathbf{v})}_{\textrm{power}}I
+  (c\rho + \mathbf{j})(-\mathbf{E}+c\mathbf{B}I)
+  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} - c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic force}} I + c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}I
 $$
 
 ## Part 4: Four Dimensions
