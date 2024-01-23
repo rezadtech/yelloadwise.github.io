@@ -241,10 +241,6 @@ $$
   = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} - c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric monopole force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic monopole force}} I + c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}I
 $$
 
-$$
-  (c\rho + \mathbf{j})\left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\phi + c\mathbf{A}\right) = (\rho\frac{\partial}{\partial t} + c\rho\mathbf{\nabla} + \mathbf{j}\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{j}\cdot\mathbf{\nabla} + \mathbf{j}\times\mathbf{\nabla}I)\left(\phi + c\mathbf{A}\right)
-$$
-
 ## Part 4: Four Dimensions
 
 In four dimensions there are now 16 basis vectors:
