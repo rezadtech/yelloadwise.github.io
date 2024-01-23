@@ -242,7 +242,7 @@ $$
 $$
 
 $$
-  (c\rho + \mathbf{j})\left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\phi + c\mathbf{A}\right) = (\rho\frac{\partial}{\partial t} + c\rho\mathbf{\nabla} + \mathbf{j}\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\j}\cdot\mathbf{\nabla} + \mathbf{j}\times\mathbf{\nabla}I)\left(\phi + c\mathbf{A}\right)
+  (c\rho + \mathbf{j})\left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\phi + c\mathbf{A}\right) = (\rho\frac{\partial}{\partial t} + c\rho\mathbf{\nabla} + \mathbf{j}\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{j}\cdot\mathbf{\nabla} + \mathbf{j}\times\mathbf{\nabla}I)\left(\phi + c\mathbf{A}\right)
 $$
 
 ## Part 4: Four Dimensions
