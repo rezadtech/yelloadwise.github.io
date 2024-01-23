@@ -238,7 +238,7 @@ The Lorentz force law can be expressed using the four velocity \\( c + \mathbf{v
 
 $$
   (qc + q\mathbf{v})(-\mathbf{E}+c\mathbf{B}I)
-  = \underbrace{q(\mathbf{E}\cdot\mathbf{v})}_{\textrm{power}} + c\underbrace{q(\mathbf{E} - \mathbf{B}\times\mathbf{v})}_{\textrm{electric force}} + c^2\underbrace{q\left(\mathbf{B} + \mathbf{E}\times\frac{\mathbf{v}}{c^2}\right)}_{\textrm{magnetic force}} I + c\underbrace{q(\mathbf{B}\cdot\mathbf{v})}_{\textrm{power}}I
+  = -\underbrace{q(\mathbf{E}\cdot\mathbf{v})}_{\textrm{power}} - c\underbrace{q(\mathbf{E} + \mathbf{v}\times\mathbf{B})}_{\textrm{electric force}} + c^2\underbrace{q\left(\mathbf{B} - \mathbf{v}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic force}} I + c\underbrace{q(\mathbf{B}\cdot\mathbf{v})}_{\textrm{power}}I
 $$
 
 ## Part 4: Four Dimensions
