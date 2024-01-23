@@ -8,6 +8,7 @@ Assuming Jerome Powell approached you and offered to sell you one of the Feds mo
 
 Intuitively one might estimate that he can get 10% returns p.a. on the stock market, so 10x the amount of dollars printed yearly would seem like a reasonable price. In the following we will look deeper into this question: first for a riskless return and later with more volatile returns.
 
+
 ### Part 1: A riskless investment
 
 Independent of the price you might be willing to pay, the relevant question is: What would the market value of such a printer be? If you can get it cheaper, then you can simply sell it to the market, otherwise you can decline the offer and buy at the market instead. Whether you would hold such an investment yourself doesn't really matter as long as there is a market you trade it with.
