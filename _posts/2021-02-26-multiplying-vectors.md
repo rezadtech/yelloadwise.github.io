@@ -224,7 +224,7 @@ Using the [electric potential](https://en.wikipedia.org/wiki/Electric_potential)
 $$
   \left(\frac{1}{c}\frac{\partial}{\partial t} - \mathbf{\nabla}\right)\left(\phi-c\mathbf{A}\right)
   = c\underbrace{\left(\frac{1}{c^2}\frac{\partial \phi}{\partial t}+\mathbf{\nabla} \cdot \mathbf{A}\right)}_{=\ 0}
-  + \underbrace{\left(-\mathbf{\nabla}\phi - \frac{\partial \mathbf{A}}{\partial t}\right)}_{=\ \mathbf{E}} + c\underbrace{\left(\mathbf{\nabla} \times \mathbf{A}\right)}_{=\ \mathbf{B}}I
+  + \underbrace{\left(-\mathbf{\nabla}\phi - \frac{\partial \mathbf{A}}{\partial t}\right)}_{=\ \mathbf{E}} + c\underbrace{\left(\mathbf{\nabla} \times \mathbf{A}\right)}_{=\ \mathbf{B}}I = \mathbf{E}+ c\mathbf{B}I
 $$
 
 This yields the known formular involving the [d'Alembert operator](https://en.wikipedia.org/wiki/D%27Alembert_operator):
