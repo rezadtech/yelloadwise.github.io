@@ -8,6 +8,7 @@ In this post we will start in two dimensions and derive the scalar product and t
 
 We will then derive a set of rules that define something named [geometric algebra](https://en.wikipedia.org/wiki/Geometric_algebra) which allows us to generalize the concept to any number of dimensions. A more detailed description of the resulting two-dimensional geometric algebra can be found in Joe Gregorio's [Introduction to Geometric Algebra over R^2](https://bitworking.org/news/ga/2d/).
 
+
 ### Table of contents
 
 - [Rotational invariance](#part-1-rotational-invariance)
