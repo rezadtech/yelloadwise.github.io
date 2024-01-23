@@ -3,8 +3,10 @@ author: "Niklas Buschmann"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-show_frame: true
 mathjax: true
+
+show_excerpts: true
+show_frame: true
 
 navigation:
   - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
