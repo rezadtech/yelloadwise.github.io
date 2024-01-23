@@ -234,11 +234,15 @@ $$
   \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2\right)\left(\phi + c\mathbf{A}\right) = \frac{\rho}{\epsilon_0} + \mu_0c\mathbf{j}
 $$
 
-The Lorentz force law can be expressed using the four velocity \\( c + \mathbf{v} \\) and gives the result for the power and force experienced by both electric and magnetic monopoles:
+The Lorentz force law can then be expressed as:
 
 $$
   (c\rho + \mathbf{j})(-\mathbf{E}+c\mathbf{B}I)
-  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} - c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic force}} I + c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}I
+  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} - c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric monopole force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic monopole force}} I + c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}I
+$$
+
+$$
+  (c\rho + \mathbf{j})\left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\phi + c\mathbf{A}\right) = (\rho\frac{\partial}{\partial t} + c\rho\mathbf{\nabla} + \mathbf{j}\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\j}\cdot\mathbf{\nabla} + \mathbf{j}\times\mathbf{\nabla}I)\left(\phi + c\mathbf{A}\right)
 $$
 
 ## Part 4: Four Dimensions
