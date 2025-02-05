@@ -217,7 +217,7 @@ $$
   c\underbrace{\left(\mathbf{\nabla}\times\mathbf{B} - \frac{1}{c^2}\frac{\partial \mathbf{E}}{\partial t}\right)}_\mathrm{Ampere-Maxwell} + 
   \underbrace{\left(\mathbf{\nabla}\times\mathbf{E}+\frac{\partial \mathbf{B}}{\partial t}\right)}_\mathrm{Faraday} I + 
   c\underbrace{\left(\mathbf{\nabla}\cdot\mathbf{B}\right)}_\mathrm{Gauss} I
-  = \frac{\rho}{\epsilon_0} + \mu_0c\mathbf{j}
+  = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
 $$
 
 Using the [electric potential](https://en.wikipedia.org/wiki/Electric_potential) \\( \phi \\) and [magnetic potential](https://en.wikipedia.org/wiki/Magnetic_vector_potential) \\( \mathbf{A} \\) - and using the [Lorenz gauge](https://en.wikipedia.org/wiki/Lorenz_gauge_condition) - we can write:
