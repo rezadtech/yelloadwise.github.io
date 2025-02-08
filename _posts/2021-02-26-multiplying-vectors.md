@@ -250,13 +250,13 @@ $$
 
 Since there are now six bivector components, the product of two vectors does not again correspond to a four-component vector. Because of this, the cross product, generalized to four dimensions, would either return six components or require three vectors as input.
 
-Working with four dimensions usually involves space-time, so I decided to name the added dimension \\( \mathbf{e}_t\\). And because space-time tends to be coupled to special relativity we will now switch to a different set of basis vectors:
+Working with four dimensions usually involves space-time, so I decided to name the added dimension \\( \mathbf{e}_t\\). And because spacetime is coupled to special relativity we will now switch to a different set of basis vectors:
 
 $$
   \bm{\gamma}_0 := \mathbf{e}_t \qquad \bm{\gamma}_1 := \mathbf{e}_t\mathbf{e}_x \qquad \bm{\gamma}_2 := \mathbf{e}_t\mathbf{e}_y \qquad \bm{\gamma}_3 := \mathbf{e}_t\mathbf{e}_z
 $$
 
-One can verify that this again defines a geometric algebra - called [spacetime algebra](https://en.wikipedia.org/wiki/Spacetime_algebra) - where now \\( \bm{\gamma}_1, \bm{\gamma}_2, \bm{\gamma}_3\\) square to \\( -1 \\) instead of \\( 1 \\), requiring modified multiplication rules. Using the metric tensor \\( \eta\_{\mu\nu} \\) with signature \\( (+, -, -, -) \\) these new rules can be expressed as:
+One can verify that this again defines a geometric algebra - called [spacetime algebra](https://en.wikipedia.org/wiki/Spacetime_algebra) - where now \\( \bm{\gamma}_1, \bm{\gamma}_2, \bm{\gamma}_3\\) square to \\( -1 \\) instead of \\( 1 \\), requiring modified multiplication rules. Using the Minkowski metric \\( \eta\_{\mu\nu} \\) with signature \\( (+, -, -, -) \\) these new rules can be expressed as:
 
 $$
   \frac{1}{2}\{\bm{\gamma}_\mu,\bm{\gamma}_\nu\} = \eta_{\mu\nu}
