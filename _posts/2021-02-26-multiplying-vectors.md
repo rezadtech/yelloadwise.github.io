@@ -144,7 +144,7 @@ $$
 Using the [anti-commutator](https://en.wikipedia.org/wiki/Commutator#Ring_theory) and the [delta symbol](https://en.wikipedia.org/wiki/Kronecker_delta) this can be written more elegantly as:
 
 $$
-  \{\mathbf{e}_i,\mathbf{e}_j\} = 2\delta_{ij}
+  \frac{1}{2}\{\mathbf{e}_i,\mathbf{e}_j\} = \delta_{ij}
 $$
 
 ## Part 3: Three Dimensions
@@ -259,7 +259,7 @@ $$
 One can verify that this again defines a geometric algebra - called [spacetime algebra](https://en.wikipedia.org/wiki/Spacetime_algebra) - where now \\( \bm{\gamma}_1, \bm{\gamma}_2, \bm{\gamma}_3\\) square to \\( -1 \\) instead of \\( 1 \\), requiring modified multiplication rules. Using the metric tensor \\( \eta\_{\mu\nu} \\) with signature \\( (+, -, -, -) \\) these new rules can be expressed as:
 
 $$
-  \{\bm{\gamma}_\mu,\bm{\gamma}_\nu\} = 2\eta_{\mu\nu}
+  \frac{1}{2}\{\bm{\gamma}_\mu,\bm{\gamma}_\nu\} = \eta_{\mu\nu}
 $$
 
 One [consequence](https://en.wikipedia.org/wiki/Spacetime_algebra#Spacetime_split) of this is that when a spacetime vector is multiplied by \\( \bm{\gamma}_0 \\), the result behaves like an ordinary 3d vector plus a scalar equivalent to the time dimension.
@@ -329,13 +329,13 @@ $$
 In four dimensions we can also use the 2x2 Pauli matrices \\( \sigma_i \\) to find:
 
 $$
-  \mathbf{e}_t = \begin{pmatrix}I_2 & 0\\ 0 & -I_2\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}0 & \sigma_x\\ \sigma_x & 0\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & \sigma_y\\ \sigma_y & 0\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}0 & \sigma_z\\ \sigma_z & 0\end{pmatrix}
+  \mathbf{e}_t = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}0 & \sigma_x\\ \sigma_x & 0\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & \sigma_y\\ \sigma_y & 0\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}0 & \sigma_z\\ \sigma_z & 0\end{pmatrix}
 $$
 
 And the spacetime basis vectors correspond to the [gamma matrices](https://en.wikipedia.org/wiki/Gamma_matrices):
 
 $$
-  \bm{\gamma}_0 = \begin{pmatrix}I_2 & 0\\ 0 & -I_2\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \sigma_x\\ -\sigma_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \sigma_y\\ -\sigma_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \sigma_z\\ -\sigma_z & 0\end{pmatrix}
+  \bm{\gamma}_0 = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \sigma_x\\ -\sigma_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \sigma_y\\ -\sigma_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \sigma_z\\ -\sigma_z & 0\end{pmatrix}
 $$
 
 One well-known [consequence](https://en.wikipedia.org/wiki/Complex_number#Matrix_representation_of_complex_numbers) of this is that any complex number can be written as:
@@ -369,7 +369,7 @@ Geometric algebra elegantly unifies the concepts of scalar products, cross produ
 Together with associativity and distributivity, the only rules needed to define a geometric algebra are:
 
 $$
-  \{\mathbf{e}_i,\mathbf{e}_j\} = 2\eta_{ij}
+  \frac{1}{2}\{\mathbf{e}_i,\mathbf{e}_j\} = \eta_{ij}
 $$
 
 Where \\( \eta_{ij} \\) is a metric tensor with [signature](https://en.wikipedia.org/wiki/Metric_signature) \\( (p, q) \\). Since \\( \eta_{ij} \\) is symmetric, there always exists a orthogonal set of basis vectors so that \\( \eta_{ij} \\) [is diagonal](https://en.wikipedia.org/wiki/Spectral_theorem), with p positive and q negative diagonal entries.
