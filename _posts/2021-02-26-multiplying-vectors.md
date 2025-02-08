@@ -207,30 +207,30 @@ Together \\( \\{1, \mathbf{e}_x\mathbf{e}_y, \mathbf{e}_z\mathbf{e}_x, \mathbf{e
 Another nice property of geometric algebra is that [Maxwell's equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) take on a particularly simple form when [expressed](https://en.wikipedia.org/wiki/Mathematical_descriptions_of_the_electromagnetic_field#Geometric_algebra_formulations) using it:
 
 $$
-  \left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\mathbf{E}+ c\mathbf{B}\bm{I}\right) = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
+  \left(\frac{1}{c}\frac{\partial}{\partial t} - \mathbf{\nabla}\right)\left(-\mathbf{E}+ c\mathbf{B}\bm{I}\right) = \frac{\rho}{\epsilon_0} + \mu_0c\mathbf{j}
 $$
 
 Expanding the product shows that the expression above is in fact equal to Maxwell's equations:
 
 $$
-  \underbrace{\left(\mathbf{\nabla}\cdot\mathbf{E}\right)}_\mathrm{Gauss} - 
+  \underbrace{\left(\mathbf{\nabla}\cdot\mathbf{E}\right)}_\mathrm{Gauss} + 
   c\underbrace{\left(\mathbf{\nabla}\times\mathbf{B} - \frac{1}{c^2}\frac{\partial \mathbf{E}}{\partial t}\right)}_\mathrm{Ampere-Maxwell} + 
   \underbrace{\left(\mathbf{\nabla}\times\mathbf{E}+\frac{\partial \mathbf{B}}{\partial t}\right)}_\mathrm{Faraday} \bm{I} + 
   c\underbrace{\left(\mathbf{\nabla}\cdot\mathbf{B}\right)}_\mathrm{Gauss} \bm{I}
-  = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
+  = \frac{\rho}{\epsilon_0} + \mu_0c\mathbf{j}
 $$
 
 Using the [electric potential](https://en.wikipedia.org/wiki/Electric_potential) \\( \phi \\) and [magnetic potential](https://en.wikipedia.org/wiki/Magnetic_vector_potential) \\( \mathbf{A} \\) - and using the [Lorenz gauge](https://en.wikipedia.org/wiki/Lorenz_gauge_condition) - we can write:
 
 $$
-  \left(\frac{1}{c}\frac{\partial}{\partial t} - \mathbf{\nabla}\right)\left(\phi - c\mathbf{A}\right)
-  = c\underbrace{\left(\frac{1}{c^2}\frac{\partial \phi}{\partial t}+\mathbf{\nabla} \cdot \mathbf{A}\right)}_{=\ 0} + \underbrace{\left(-\mathbf{\nabla}\phi - \frac{\partial \mathbf{A}}{\partial t}\right)}_{=\ \mathbf{E}} + c\underbrace{\left(\mathbf{\nabla} \times \mathbf{A}\right)}_{=\ \mathbf{B}}\bm{I} = \mathbf{E}+ c\mathbf{B}\bm{I}
+  \left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\phi + c\mathbf{A}\right)
+  = c\underbrace{\left(\frac{1}{c^2}\frac{\partial \phi}{\partial t}+\mathbf{\nabla} \cdot \mathbf{A}\right)}_{=\ 0} - \underbrace{\left(-\mathbf{\nabla}\phi - \frac{\partial \mathbf{A}}{\partial t}\right)}_{=\ \mathbf{E}} + c\underbrace{\left(\mathbf{\nabla} \times \mathbf{A}\right)}_{=\ \mathbf{B}}\bm{I} = -\mathbf{E}+ c\mathbf{B}\bm{I}
 $$
 
 This yields the known formular involving the [d'Alembert operator](https://en.wikipedia.org/wiki/D%27Alembert_operator):
 
 $$
-  \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2\right)\left(\phi - c\mathbf{A}\right) = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
+  \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2\right)\left(\phi + c\mathbf{A}\right) = \frac{\rho}{\epsilon_0} + \mu_0c\mathbf{j}
 $$
 
 The Lorentz force law can then be expressed as:
