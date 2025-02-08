@@ -314,52 +314,52 @@ The [Kronecker delta](https://en.wikipedia.org/wiki/Kronecker_delta) and the [Le
 
 It should also be noted that for every geometric algebra there exists a set of square matrices behaving like the basis vectors when combined with the usual matrix addition and multiplication.
 
-In two dimensions one can identify:
+In **two dimensions** one can identify:
 
 $$
   \mathbf{e}_x = \begin{pmatrix}1 & 0\\ 0 & -1\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix}
 $$
 
-In three dimensions the ordinary basis vectors can be identified with the [Pauli matrices](https://en.wikipedia.org/wiki/Pauli_matrices):
+One well-known [consequence](https://en.wikipedia.org/wiki/Complex_number#Matrix_representation_of_complex_numbers) of this is that any complex number can be written as:
+
+$$
+  a+bi = a\mathbf{1} + b\mathbf{e}_x\mathbf{e}_y = a\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix} + b\begin{pmatrix}0 & 1\\ -1 & 0\end{pmatrix} = \begin{pmatrix}a & b\\ -b & a\end{pmatrix} = \cos \varphi + i\sin \varphi
+$$
+
+Applying [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) gives the fact that [rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix) can be expressed as matrix exponential:
+
+$$
+  e^{\varphi i} = \exp\begin{pmatrix}0 & \varphi\\ -\varphi & 0\end{pmatrix} = \begin{pmatrix}\cos \varphi & \sin \varphi\\ -\sin \varphi & \cos \varphi \end{pmatrix}
+$$
+
+In **three dimensions** the ordinary basis vectors can be identified with the [Pauli matrices](https://en.wikipedia.org/wiki/Pauli_matrices):
 
 $$
   \mathbf{e}_x = \begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & -i\\ i & 0\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}1 & 0\\ 0 & -1\end{pmatrix}
 $$
 
-In four dimensions we can also use the 2x2 Pauli matrices \\( \sigma_i \\) to find:
-
-$$
-  \mathbf{e}_t = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}0 & \bm{\sigma}_x\\ \bm{\sigma}_x & 0\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & \bm{\sigma}_y\\ \bm{\sigma}_y & 0\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}0 & \bm{\sigma}_z\\ \bm{\sigma}_z & 0\end{pmatrix}
-$$
-
-And the spacetime basis vectors correspond to the [gamma matrices](https://en.wikipedia.org/wiki/Gamma_matrices):
-
-$$
-  \bm{\gamma}_0 = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \bm{\sigma}_x\\ -\bm{\sigma}_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \bm{\sigma}_y\\ -\bm{\sigma}_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \bm{\sigma}_z\\ -\bm{\sigma}_z & 0\end{pmatrix}
-$$
-
-One well-known [consequence](https://en.wikipedia.org/wiki/Complex_number#Matrix_representation_of_complex_numbers) of this is that any complex number can be written as:
-
-$$
-  a+bi = a\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix} + b\begin{pmatrix}0 & 1\\ -1 & 0\end{pmatrix} = \begin{pmatrix}a & b\\ -b & a\end{pmatrix}
-$$
-
-Applying Euler's formula gives the fact that [rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix) can be expressed as matrix exponential:
-
-$$
-  \exp\begin{pmatrix}0 & \varphi\\ -\varphi & 0\end{pmatrix} = \begin{pmatrix}\cos \varphi & \sin \varphi\\ -\sin \varphi & \cos \varphi \end{pmatrix}
-$$
-
-Another interesting fact, the relationship beween [Pauli matrices and the scalar and cross product](https://en.wikipedia.org/wiki/Pauli_matrices#Relation_to_dot_and_cross_product), is immediately obvious when looking at it from a geometric algebra perspective:
+The relationship beween [Pauli matrices and the scalar and cross product](https://en.wikipedia.org/wiki/Pauli_matrices#Relation_to_dot_and_cross_product), is immediately obvious when looking at it from a geometric algebra perspective:
 
 $$
   (\mathbf{a}\cdot\bm{\sigma})(\mathbf{b}\cdot\bm{\sigma}) = (\mathbf{a}\cdot\mathbf{b}) + i(\mathbf{a}\times\mathbf{b})\cdot \bm{\sigma}
 $$
 
-Again a matrix representation of quaternions can be found using the products of the Pauli matrices:
+A matrix representation of quaternions can be found using the products of the Pauli matrices:
 
 $$
   a+bi+cj+dk = a\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix} + b\begin{pmatrix}i & 0\\ 0 & -i\end{pmatrix} + c\begin{pmatrix}0 & 1\\ -1 & 0\end{pmatrix} + d\begin{pmatrix}0 & i\\ i & 0\end{pmatrix} = \begin{pmatrix}a+bi & c+di\\ -c+di & a-bi\end{pmatrix}
+$$
+
+In **four dimensions** we can also compose the 2x2 Pauli matrices \\( \bm{\sigma}_i \\) to find:
+
+$$
+  \mathbf{e}_t = \begin{pmatrix}0 & \mathbf{1}\\ \mathbf{1} & 0\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}-\bm{\sigma}_x & 0\\ 0 & \bm{\sigma}_x\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}-\bm{\sigma}_y & 0\\ 0 & \bm{\sigma}_y\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}-\bm{\sigma}_z & 0\\ 0 & \bm{\sigma}_z\end{pmatrix}
+$$
+
+And the spacetime basis vectors \\( \bm{\sigma}_i \\) correspond to the [gamma matrices](https://en.wikipedia.org/wiki/Gamma_matrices):
+
+$$
+  \bm{\gamma}_0 = \begin{pmatrix}0 & \mathbf{1}\\ \mathbf{1} & 0\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \bm{\sigma}_x\\ -\bm{\sigma}_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \bm{\sigma}_y\\ -\bm{\sigma}_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \bm{\sigma}_z\\ -\bm{\sigma}_z & 0\end{pmatrix}
 $$
 
 ## Summary
