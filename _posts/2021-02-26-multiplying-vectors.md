@@ -274,7 +274,7 @@ Now, since the [octonions](https://en.wikipedia.org/wiki/Octonion) are not assoc
 
 ### Electromagnetism
 
-Replacing \\( \\{1, \mathbf{e}\_x, \mathbf{e}\_y, \mathbf{e}\_z \\} \\) with \\( \\{\bm{\gamma}\_0, \bm{\gamma}\_1, \bm{\gamma}\_2, \bm{\gamma}\_3 \\} \\) cleans up the equations considerably. Using the usual definitions \\( \mathbf{\nabla} = \partial^\mu \bm{\gamma}\_\mu \\), \\( \mathbf{A} = A^\mu \bm{\gamma}\_\mu \\) and \\( \mathbf{j} = j^\mu \bm{\gamma}\_\mu \\) of the [four-gradient](https://en.wikipedia.org/wiki/Four-vector#Four-gradient), [four-potential and four-current](https://en.wikipedia.org/wiki/Four-vector#Electromagnetism) yields:
+Replacing \\( \\{1, \mathbf{e}\_x, \mathbf{e}\_y, \mathbf{e}\_z \\} \\) with \\( \\{\bm{\gamma}\_0, \bm{\gamma}\_1, \bm{\gamma}\_2, \bm{\gamma}\_3 \\} \\) cleans up the equations considerably. Using the usual definitions of the [four-gradient](https://en.wikipedia.org/wiki/Four-vector#Four-gradient) \\( \mathbf{\nabla} = \partial^\mu \bm{\gamma}\_\mu \\), [four-potential](https://en.wikipedia.org/wiki/Four-vector#Electromagnetism) \\( \mathbf{A} = A^\mu \bm{\gamma}\_\mu \\) and [four-current](https://en.wikipedia.org/wiki/Four-vector#Electromagnetism) \\( \mathbf{j} = j^\mu \bm{\gamma}\_\mu \\) yields:
 
 $$
    \mathbf{\nabla}\mathbf{A} = \mathbf{F}, \quad \mathbf{\nabla}\mathbf{F} = \mu_0\mathbf{j}, \quad \mathbf{\nabla}^2\mathbf{A} = \mu_0\mathbf{j}
