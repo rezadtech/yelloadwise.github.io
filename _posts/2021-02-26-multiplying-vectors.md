@@ -329,13 +329,13 @@ $$
 In four dimensions we can also use the 2x2 Pauli matrices \\( \sigma_i \\) to find:
 
 $$
-  \mathbf{e}_t = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}0 & \sigma_x\\ \sigma_x & 0\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & \sigma_y\\ \sigma_y & 0\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}0 & \sigma_z\\ \sigma_z & 0\end{pmatrix}
+  \mathbf{e}_t = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}0 & \bm{\sigma}_x\\ \bm{\sigma}_x & 0\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}0 & \bm{\sigma}_y\\ \bm{\sigma}_y & 0\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}0 & \bm{\sigma}_z\\ \bm{\sigma}_z & 0\end{pmatrix}
 $$
 
 And the spacetime basis vectors correspond to the [gamma matrices](https://en.wikipedia.org/wiki/Gamma_matrices):
 
 $$
-  \bm{\gamma}_0 = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \sigma_x\\ -\sigma_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \sigma_y\\ -\sigma_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \sigma_z\\ -\sigma_z & 0\end{pmatrix}
+  \bm{\gamma}_0 = \begin{pmatrix}\mathbf{1} & 0\\ 0 & -\mathbf{1}\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \bm{\sigma}_x\\ -\bm{\sigma}_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \bm{\sigma}_y\\ -\bm{\sigma}_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \bm{\sigma}_z\\ -\bm{\sigma}_z & 0\end{pmatrix}
 $$
 
 One well-known [consequence](https://en.wikipedia.org/wiki/Complex_number#Matrix_representation_of_complex_numbers) of this is that any complex number can be written as:
@@ -347,7 +347,7 @@ $$
 Applying Euler's formula gives the fact that [rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix) can be expressed as matrix exponential:
 
 $$
-  \exp\begin{pmatrix}0 & \varphi\\ -\varphi & 0\end{pmatrix} = \begin{pmatrix}\cos(\varphi) & \sin(\varphi)\\ -\sin(\varphi) & \cos(\varphi)\end{pmatrix}
+  \exp\begin{pmatrix}0 & \varphi\\ -\varphi & 0\end{pmatrix} = \begin{pmatrix}\cos \varphi & \sin \varphi\\ -\sin \varphi & \cos \varphi \end{pmatrix}
 $$
 
 Another interesting fact, the relationship beween [Pauli matrices and the scalar and cross product](https://en.wikipedia.org/wiki/Pauli_matrices#Relation_to_dot_and_cross_product), is immediately obvious when looking at it from a geometric algebra perspective:
