@@ -102,38 +102,38 @@ Let us now look at rotations of the coordinate system (e.g. \\(\mathbf{e}_x \map
 
 We can also recognize that \\( \mathbf{e}_s\mathbf{e}_s \\) is another scalar and \\( \mathbf{e}_s\mathbf{e}_c \\) is another pseudoscalar. Assuming there only exists one kind of scalar and one kind of pseudoscalar, we will assure that \\( \mathbf{e}_s=\mathbf{e}_s\mathbf{e}_s \\) and \\( \mathbf{e}_c=\mathbf{e}_s\mathbf{e}_c \\) by defining \\( \mathbf{e}_s \\) to be the [neutral element](https://en.wikipedia.org/wiki/Identity_element), that when multiplied with leaves everything unchanged.
 
-With this \\( \\{\mathbf{e}_s, \mathbf{e}_c\\} \\) is now [isomorphic](https://en.wikipedia.org/wiki/Isomorphism) to the [complex numbers](https://en.wikipedia.org/wiki/Complex_number) \\( \\{1, i\\} \\), meaning both behave completely identical with respect to addition and multiplication, and allowing us to rename \\( \mathbf{e}_s = 1 \\) and \\(\mathbf{e}_c = \mathbf{i} \\).
+With this \\( \\{\mathbf{e}_s, \mathbf{e}_c\\} \\) is now [isomorphic](https://en.wikipedia.org/wiki/Isomorphism) to the [complex numbers](https://en.wikipedia.org/wiki/Complex_number) \\( \\{1, i\\} \\), meaning both behave completely identical with respect to addition and multiplication, and allowing us to rename \\( \mathbf{e}_s = 1 \\) and \\(\mathbf{e}_c = \mathbf{I} \\). Note that a capital \\( \mathbf{I} \\) is used here to distinguish vectors with complex coefficients.
 
-Since they are isomorphic to the complex numbers, [Euler's formula](https://en.wikipedia.org/wiki/Euler's_formula) also applies to \\( 1 \\) and \\( \mathbf{i} \\):
-
-$$
-  e^{\mathbf{i} \varphi} = \cos(\varphi) + \sin(\varphi) \mathbf{i}
-$$
-
-By definition we know that vectors are left unchanged when multiplied with the neutral element \\( 1 \\). But how does \\( \mathbf{i} \\) act on the ordinary basis vectors?
+Since they are isomorphic to the complex numbers, [Euler's formula](https://en.wikipedia.org/wiki/Euler's_formula) also applies to \\( 1 \\) and \\( \mathbf{I} \\):
 
 $$
-  \mathbf{i} \mathbf{e}_x = \mathbf{e}_x \mathbf{e}_y \mathbf{e}_x = - \mathbf{e}_y \\[1ex]
-  \mathbf{i} \mathbf{e}_y = \mathbf{e}_x \mathbf{e}_y \mathbf{e}_y = + \mathbf{e}_x
+  e^{\mathbf{I} \varphi} = \cos(\varphi) + \sin(\varphi) \mathbf{I}
 $$
 
-From this one can see that \\( \mathbf{i} \\) acts like a rotor on any vector. Multiplying a vector with \\( a + b \mathbf{i} \\) then follows the rules known from [complex numbers](https://en.wikipedia.org/wiki/Complex_numbers#Multiplication_and_division_in_polar_form).
-
-Because \\( \\{1, \mathbf{i}\\} \\) is closed under multiplication and both give back a vector when multiplied with a vector, the complete geometric algebra \\( \\{1, \mathbf{e}_x, \mathbf{e}_y, \mathbf{i}\\} \\) is closed under multiplication, with the following multiplication table:
+By definition we know that vectors are left unchanged when multiplied with the neutral element \\( 1 \\). But how does \\( \mathbf{I} \\) act on the ordinary basis vectors?
 
 $$
-  \mathbf{e}_x\mathbf{e}_x = 1 \quad \mathbf{e}_x\mathbf{e}_y = \mathbf{i} \quad \mathbf{e}_x \mathbf{i} = \mathbf{e}_y\\[1ex]
-  \mathbf{e}_y\mathbf{e}_x = - \mathbf{i} \quad \mathbf{e}_y\mathbf{e}_y = 1 \quad \mathbf{e}_y \mathbf{i} = -\mathbf{e}_x\\[1ex]
-  \mathbf{i}\mathbf{e}_x = -\mathbf{e}_y \quad \mathbf{i}\mathbf{e}_y=\mathbf{e}_x \quad \mathbf{i}^2 = -1
+  \mathbf{I} \mathbf{e}_x = \mathbf{e}_x \mathbf{e}_y \mathbf{e}_x = - \mathbf{e}_y \\[1ex]
+  \mathbf{I} \mathbf{e}_y = \mathbf{e}_x \mathbf{e}_y \mathbf{e}_y = + \mathbf{e}_x
+$$
+
+From this one can see that \\( \mathbf{I} \\) acts like a rotor on any vector. Multiplying a vector with \\( a + b \mathbf{I} \\) then follows the rules known from [complex numbers](https://en.wikipedia.org/wiki/Complex_numbers#Multiplication_and_division_in_polar_form).
+
+Because \\( \\{1, \mathbf{I}\\} \\) is closed under multiplication and both give back a vector when multiplied with a vector, the complete geometric algebra \\( \\{1, \mathbf{e}_x, \mathbf{e}_y, \mathbf{I}\\} \\) is closed under multiplication, with the following multiplication table:
+
+$$
+  \mathbf{e}_x\mathbf{e}_x = 1 \quad \mathbf{e}_x\mathbf{e}_y = \mathbf{I} \quad \mathbf{e}_x \mathbf{I} = \mathbf{e}_y\\[1ex]
+  \mathbf{e}_y\mathbf{e}_x = - \mathbf{I} \quad \mathbf{e}_y\mathbf{e}_y = 1 \quad \mathbf{e}_y \mathbf{I} = -\mathbf{e}_x\\[1ex]
+  \mathbf{I}\mathbf{e}_x = -\mathbf{e}_y \quad \mathbf{I}\mathbf{e}_y=\mathbf{e}_x \quad \mathbf{I}^2 = -1
 $$
 
 Together with associativity and distributivity, this can be simplified to the two following rules:
 
 $$
-  1=\mathbf{e}_x\mathbf{e}_x = \mathbf{e}_y \mathbf{e}_y \qquad \mathbf{i}=\mathbf{e}_x\mathbf{e}_y = -\mathbf{e}_y\mathbf{e}_x
+  1=\mathbf{e}_x\mathbf{e}_x = \mathbf{e}_y \mathbf{e}_y \qquad \mathbf{I}=\mathbf{e}_x\mathbf{e}_y = -\mathbf{e}_y\mathbf{e}_x
 $$
 
-Note that defining the squares \\( \mathbf{e}_x\mathbf{e}_x \\) and \\( \mathbf{e}_y\mathbf{e}_y \\) to be \\( 1 \\) is important since this implies that they are the [neutral element](https://en.wikipedia.org/wiki/Identity_element), whereas \\( \mathbf{i} \\) is just another name for \\( \mathbf{e}_x\mathbf{e}_y \\) and will change in higher dimensions.
+Note that defining the squares \\( \mathbf{e}_x\mathbf{e}_x \\) and \\( \mathbf{e}_y\mathbf{e}_y \\) to be \\( 1 \\) is important since this implies that they are the [neutral element](https://en.wikipedia.org/wiki/Identity_element), whereas \\( \mathbf{I} \\) is just another name for \\( \mathbf{e}_x\mathbf{e}_y \\) and will change in higher dimensions.
 
 In fact the geometric algebra can be generalized to any number of dimensions where for any \\( i \neq j \\):
 
@@ -155,18 +155,18 @@ $$
   \{1, \mathbf{e}_x, \mathbf{e}_y, \mathbf{e}_z, \mathbf{e}_y\mathbf{e}_z, \mathbf{e}_z\mathbf{e}_x, \mathbf{e}_x\mathbf{e}_y, \mathbf{e}_x\mathbf{e}_y\mathbf{e}_z \}
 $$
 
-Again defining the pseudoscalar \\( \mathbf{i}:=\mathbf{e}_x\mathbf{e}_y\mathbf{e}_z\\) allows the basis to be rewritten as:
+Again defining the pseudoscalar \\( \mathbf{I}:=\mathbf{e}_x\mathbf{e}_y\mathbf{e}_z\\) allows the basis to be rewritten as:
 
 $$
-  \{1, \mathbf{e}_x, \mathbf{e}_y, \mathbf{e}_z, \mathbf{i}\mathbf{e}_x, \mathbf{i}\mathbf{e}_y, \mathbf{i}\mathbf{e}_z, \mathbf{i} \}
+  \{1, \mathbf{e}_x, \mathbf{e}_y, \mathbf{e}_z, \mathbf{I}\mathbf{e}_x, \mathbf{I}\mathbf{e}_y, \mathbf{I}\mathbf{e}_z, \mathbf{I} \}
 $$
 
 Where we used that:
 
 $$
-  \mathbf{i}\mathbf{e}_x = \mathbf{e}_y \mathbf{e}_z \qquad
-  \mathbf{i}\mathbf{e}_y = \mathbf{e}_z \mathbf{e}_x \qquad
-  \mathbf{i}\mathbf{e}_z = \mathbf{e}_x \mathbf{e}_y
+  \mathbf{I}\mathbf{e}_x = \mathbf{e}_y \mathbf{e}_z \qquad
+  \mathbf{I}\mathbf{e}_y = \mathbf{e}_z \mathbf{e}_x \qquad
+  \mathbf{I}\mathbf{e}_z = \mathbf{e}_x \mathbf{e}_y
 $$
 
 Let us see what happens when two ordinary vectors are multiplied together:
@@ -175,10 +175,10 @@ $$
   \mathbf{a}\mathbf{b} = (a_1b_1 + a_2b_2+a_3b_3) + (a_1b_2-a_2b_1)\mathbf{e}_x\mathbf{e}_y - (a_1b_3-a_3b_1)\mathbf{e}_z\mathbf{e}_x + (a_2b_3-a_3b_2)\mathbf{e}_y\mathbf{e}_z
 $$
 
-Using the pseudoscalar \\( \mathbf{i} \\) this can again be written as:
+Using the pseudoscalar \\( \mathbf{I} \\) this can again be written as:
 
 $$
-  \mathbf{a}\mathbf{b} = \mathbf{a}\cdot\mathbf{b} + (\mathbf{a}\times\mathbf{b}) \mathbf{i}
+  \mathbf{a}\mathbf{b} = \mathbf{a}\cdot\mathbf{b} + (\mathbf{a}\times\mathbf{b}) \mathbf{I}
 $$
 
 Another interesting property is that the pseudoscalar part of the product of three vectors equals the [determinant](https://en.wikipedia.org/wiki/Determinant) or [triple product](https://en.wikipedia.org/wiki/Triple_product) of them:
@@ -186,8 +186,8 @@ Another interesting property is that the pseudoscalar part of the product of thr
 $$
 \begin{aligned}
   \mathbf{a}\mathbf{b}\mathbf{c}
-  &= (\mathbf{a}\cdot\mathbf{b})\mathbf{c} + ((\mathbf{a}\times\mathbf{b})\cdot\mathbf{c}+((\mathbf{a}\times\mathbf{b})\times\mathbf{c}) \mathbf{i}) \mathbf{i}\\[1ex]
-  &= (\mathbf{a}\cdot\mathbf{b})\mathbf{c} - (\mathbf{a}\cdot\mathbf{c})\mathbf{b} + (\mathbf{b}\cdot\mathbf{c})\mathbf{a} + \det([\mathbf{a}|\mathbf{b}|\mathbf{c}]) \mathbf{i}
+  &= (\mathbf{a}\cdot\mathbf{b})\mathbf{c} + ((\mathbf{a}\times\mathbf{b})\cdot\mathbf{c}+((\mathbf{a}\times\mathbf{b})\times\mathbf{c}) \mathbf{I}) \mathbf{I}\\[1ex]
+  &= (\mathbf{a}\cdot\mathbf{b})\mathbf{c} - (\mathbf{a}\cdot\mathbf{c})\mathbf{b} + (\mathbf{b}\cdot\mathbf{c})\mathbf{a} + \det([\mathbf{a}|\mathbf{b}|\mathbf{c}]) \mathbf{I}
 \end{aligned}
 $$
 
@@ -207,7 +207,7 @@ Together \\( \\{1, \mathbf{e}_x\mathbf{e}_y, \mathbf{e}_z\mathbf{e}_x, \mathbf{e
 Another nice property of geometric algebra is that [Maxwell's equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) take on a particularly simple form when [expressed](https://en.wikipedia.org/wiki/Mathematical_descriptions_of_the_electromagnetic_field#Geometric_algebra_formulations) using it:
 
 $$
-  \left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\mathbf{E}+ c\mathbf{B}\mathbf{i}\right) = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
+  \left(\frac{1}{c}\frac{\partial}{\partial t} + \mathbf{\nabla}\right)\left(\mathbf{E}+ c\mathbf{B}\mathbf{I}\right) = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
 $$
 
 Expanding the product shows that the expression above is in fact equal to Maxwell's equations:
@@ -215,8 +215,8 @@ Expanding the product shows that the expression above is in fact equal to Maxwel
 $$
   \underbrace{\left(\mathbf{\nabla}\cdot\mathbf{E}\right)}_\mathrm{Gauss} - 
   c\underbrace{\left(\mathbf{\nabla}\times\mathbf{B} - \frac{1}{c^2}\frac{\partial \mathbf{E}}{\partial t}\right)}_\mathrm{Ampere-Maxwell} + 
-  \underbrace{\left(\mathbf{\nabla}\times\mathbf{E}+\frac{\partial \mathbf{B}}{\partial t}\right)}_\mathrm{Faraday} \mathbf{i} + 
-  c\underbrace{\left(\mathbf{\nabla}\cdot\mathbf{B}\right)}_\mathrm{Gauss} \mathbf{i}
+  \underbrace{\left(\mathbf{\nabla}\times\mathbf{E}+\frac{\partial \mathbf{B}}{\partial t}\right)}_\mathrm{Faraday} \mathbf{I} + 
+  c\underbrace{\left(\mathbf{\nabla}\cdot\mathbf{B}\right)}_\mathrm{Gauss} \mathbf{I}
   = \frac{\rho}{\epsilon_0} - \mu_0c\mathbf{j}
 $$
 
@@ -224,7 +224,7 @@ Using the [electric potential](https://en.wikipedia.org/wiki/Electric_potential)
 
 $$
   \left(\frac{1}{c}\frac{\partial}{\partial t} - \mathbf{\nabla}\right)\left(\phi - c\mathbf{A}\right)
-  = c\underbrace{\left(\frac{1}{c^2}\frac{\partial \phi}{\partial t}+\mathbf{\nabla} \cdot \mathbf{A}\right)}_{=\ 0} + \underbrace{\left(-\mathbf{\nabla}\phi - \frac{\partial \mathbf{A}}{\partial t}\right)}_{=\ \mathbf{E}} + c\underbrace{\left(\mathbf{\nabla} \times \mathbf{A}\right)}_{=\ \mathbf{B}}\mathbf{i} = \mathbf{E}+ c\mathbf{B}\mathbf{i}
+  = c\underbrace{\left(\frac{1}{c^2}\frac{\partial \phi}{\partial t}+\mathbf{\nabla} \cdot \mathbf{A}\right)}_{=\ 0} + \underbrace{\left(-\mathbf{\nabla}\phi - \frac{\partial \mathbf{A}}{\partial t}\right)}_{=\ \mathbf{E}} + c\underbrace{\left(\mathbf{\nabla} \times \mathbf{A}\right)}_{=\ \mathbf{B}}\mathbf{I} = \mathbf{E}+ c\mathbf{B}\mathbf{I}
 $$
 
 This yields the known formular involving the [d'Alembert operator](https://en.wikipedia.org/wiki/D%27Alembert_operator):
@@ -236,8 +236,8 @@ $$
 The Lorentz force law can then be expressed as:
 
 $$
-  (c\rho - \mathbf{j})(\mathbf{E}+c\mathbf{B}\mathbf{i})
-  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} + c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric monopole force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic monopole force}} \mathbf{i} - c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}\mathbf{i}
+  (c\rho - \mathbf{j})(\mathbf{E}+c\mathbf{B}\mathbf{I})
+  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} + c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric monopole force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic monopole force}} \mathbf{I} - c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}\mathbf{I}
 $$
 
 ## Part 4: Four Dimensions
@@ -245,7 +245,7 @@ $$
 In four dimensions there are now 16 basis vectors:
 
 $$
-  \{1, \mathbf{e}_t, \mathbf{e}_x, \mathbf{e}_y, \mathbf{e}_z, \mathbf{e}_t\mathbf{e}_x, \mathbf{e}_t\mathbf{e}_y, \mathbf{e}_t\mathbf{e}_z, \mathbf{e}_x\mathbf{e}_y, \mathbf{e}_z\mathbf{e}_x, \mathbf{e}_y\mathbf{e}_z, \mathbf{i}\mathbf{e}_t, \mathbf{i}\mathbf{e}_x, \mathbf{i}\mathbf{e}_y, I\mathbf{e}_z, \mathbf{i} \}
+  \{1, \mathbf{e}_t, \mathbf{e}_x, \mathbf{e}_y, \mathbf{e}_z, \mathbf{e}_t\mathbf{e}_x, \mathbf{e}_t\mathbf{e}_y, \mathbf{e}_t\mathbf{e}_z, \mathbf{e}_x\mathbf{e}_y, \mathbf{e}_z\mathbf{e}_x, \mathbf{e}_y\mathbf{e}_z, \mathbf{I}\mathbf{e}_t, \mathbf{I}\mathbf{e}_x, \mathbf{I}\mathbf{e}_y, I\mathbf{e}_z, \mathbf{I} \}
 $$
 
 Since there are now six bivector components, the product of two vectors does not again correspond to a four-component vector. Because of this, the cross product, generalized to four dimensions, would either return six components or require three vectors as input.
@@ -270,14 +270,14 @@ $$
   \mathbf{\nabla}^2 = \left(\bm{\gamma}_0 \frac{1}{c}\frac{\partial}{\partial t} + \bm{\gamma}_1 \frac{\partial}{\partial x} + \bm{\gamma}_2 \frac{\partial}{\partial y} + \bm{\gamma}_3 \frac{\partial}{\partial z} \right)^2 = \frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2
 $$
 
-Now, since the [octonions](https://en.wikipedia.org/wiki/Octonion) are not associative, there does not exist a subset of basis vectors isomorphic to them. But the complete three dimensional geometric algebra is isomorphic to the [biquaternions](https://en.wikipedia.org/wiki/Biquaternion), in four dimensions the scalar, bivectors and pseudoscalar together are isomorphic to the [split-biquaternions](https://en.wikipedia.org/wiki/Split-biquaternion) and with spacetime the scalar, bivectors and pseudoscalar together are isomorphic to the [split-octonions](https://en.wikipedia.org/wiki/Split-octonion). The "split" comes from the fact that in four dimensions \\( \mathbf{i}^2 = (\mathbf{e}_t\mathbf{e}_x\mathbf{e}_y\mathbf{e}_z)^2 = 1 \\).
+Now, since the [octonions](https://en.wikipedia.org/wiki/Octonion) are not associative, there does not exist a subset of basis vectors isomorphic to them. But the complete three dimensional geometric algebra is isomorphic to the [biquaternions](https://en.wikipedia.org/wiki/Biquaternion), in four dimensions the scalar, bivectors and pseudoscalar together are isomorphic to the [split-biquaternions](https://en.wikipedia.org/wiki/Split-biquaternion) and with spacetime the scalar, bivectors and pseudoscalar together are isomorphic to the [split-octonions](https://en.wikipedia.org/wiki/Split-octonion). The "split" comes from the fact that in four dimensions \\( \mathbf{I}^2 = (\mathbf{e}_t\mathbf{e}_x\mathbf{e}_y\mathbf{e}_z)^2 = 1 \\).
 
 ## Part 5: Scalar and Wedge product
 
 In three dimensions the geometric prouct can be written as:
 
 $$
-  \mathbf{a}\mathbf{b} = \mathbf{a}\cdot\mathbf{b} + (\mathbf{a}\times\mathbf{b}) \mathbf{i} \quad \Leftrightarrow \quad \mathbf{b}\mathbf{a} = \mathbf{a}\cdot\mathbf{b} - (\mathbf{a}\times\mathbf{b}) \mathbf{i}
+  \mathbf{a}\mathbf{b} = \mathbf{a}\cdot\mathbf{b} + (\mathbf{a}\times\mathbf{b}) \mathbf{I} \quad \Leftrightarrow \quad \mathbf{b}\mathbf{a} = \mathbf{a}\cdot\mathbf{b} - (\mathbf{a}\times\mathbf{b}) \mathbf{I}
 $$
 
 But in any number of dimensions the product between two vectors splits into a commutative and anticommutative part, called scalar and [wedge product](https://en.wikipedia.org/wiki/Exterior_algebra):
@@ -302,8 +302,8 @@ $$
 Since the wedge product can only increase the order of its input, this allows one to extract the higher part of vector products:
 
 $$
-  \mathbf{a}\wedge\mathbf{b} = (\mathbf{a}\times\mathbf{b}) \mathbf{i} \\[1ex]
-  \mathbf{a}\wedge\mathbf{b}\wedge\mathbf{c} = \det([\mathbf{a}|\mathbf{b}|\mathbf{c}]) \mathbf{i}
+  \mathbf{a}\wedge\mathbf{b} = (\mathbf{a}\times\mathbf{b}) \mathbf{I} \\[1ex]
+  \mathbf{a}\wedge\mathbf{b}\wedge\mathbf{c} = \det([\mathbf{a}|\mathbf{b}|\mathbf{c}]) \mathbf{I}
 $$
 
 This even works in n dimensions as long as n vectors are multiplied for the determinant and n-1 vectors for the cross product - which then returns another pseudovector in a direction orthogonal to all of them.
