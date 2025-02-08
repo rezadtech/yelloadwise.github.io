@@ -329,7 +329,7 @@ $$
 Applying [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) gives the fact that [rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix) can be expressed as matrix exponential:
 
 $$
-  e^{i\varphi} = \cos \varphi + i\sin \varphi \quad \leftrightarrow \quad \exp\begin{pmatrix}0 & \varphi\\ -\varphi & 0\end{pmatrix} = \begin{pmatrix}\cos \varphi & \sin \varphi\\ -\sin \varphi & \cos \varphi \end{pmatrix}
+  e^{i\varphi} = \cos \varphi + i\sin \varphi \quad \Leftrightarrow \quad \exp\begin{pmatrix}0 & \varphi\\ -\varphi & 0\end{pmatrix} = \begin{pmatrix}\cos \varphi & \sin \varphi\\ -\sin \varphi & \cos \varphi \end{pmatrix}
 $$
 
 In **three dimensions** the ordinary basis vectors can be identified with the [Pauli matrices](https://en.wikipedia.org/wiki/Pauli_matrices):
