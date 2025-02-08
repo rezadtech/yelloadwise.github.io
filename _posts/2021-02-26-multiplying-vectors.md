@@ -236,8 +236,8 @@ $$
 The Lorentz force law can then be expressed as:
 
 $$
-  (c\rho - \mathbf{j})(\mathbf{E}+c\mathbf{B}\bm{I})
-  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} + c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric monopole force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic monopole force}} \bm{I} - c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}\bm{I}
+  (c\rho + \mathbf{j})(-\mathbf{E}+c\mathbf{B}\bm{I})
+  = -\underbrace{(\mathbf{E}\cdot\mathbf{j})}_{\textrm{power}} - c\underbrace{(\rho\mathbf{E} + \mathbf{j}\times\mathbf{B})}_{\textrm{electric monopole force}} + c^2\underbrace{\left(\rho\mathbf{B} - \mathbf{j}\times\frac{\mathbf{E}}{c^2}\right)}_{\textrm{magnetic monopole force}} \bm{I} + c\underbrace{(\mathbf{B}\cdot\mathbf{j})}_{\textrm{power}}\bm{I}
 $$
 
 ## Part 4: Four Dimensions
