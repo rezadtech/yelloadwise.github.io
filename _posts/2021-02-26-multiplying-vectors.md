@@ -280,7 +280,7 @@ $$
    \mathbf{\nabla}\mathbf{A} = \mathbf{F}, \quad \mathbf{\nabla}\mathbf{F} = \mu_0\mathbf{j}, \quad \mathbf{\nabla}^2\mathbf{A} = \mu_0\mathbf{j}
 $$
 
-Here \\( \mathbf{F} = F^{\mu\nu}\bm{\gamma}\_\mu\bm{\gamma}\_\nu \\) is a bivector of the spacetime algebra, whose components are the E and B field.
+Here \\( \mathbf{F} = F^{\mu\nu}\bm{\gamma}\_\mu\bm{\gamma}\_\nu \\) is a bivector of the spacetime algebra, whose components \\( F^{\mu\nu} \\) are the \\( \mathbf{E} \\) and \\( \mathbf{B} \\) field.
 
 ## Part 5: Scalar and Wedge product
 
