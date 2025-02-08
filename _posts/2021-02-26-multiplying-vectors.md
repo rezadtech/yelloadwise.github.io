@@ -267,7 +267,7 @@ One [consequence](https://en.wikipedia.org/wiki/Spacetime_algebra#Spacetime_spli
 Another interesting property is that in the spacetime algebra there exists a "square root" of the d'Alembert operator:
 
 $$
-  \left(\bm{\gamma}_0 \frac{1}{c}\frac{\partial}{\partial t} + \bm{\gamma}_1 \frac{\partial}{\partial x} + \bm{\gamma}_2 \frac{\partial}{\partial y} + \bm{\gamma}_3 \frac{\partial}{\partial z} \right)^2 = \frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2
+  \mathbf{\nabla}^2 = \left(\bm{\gamma}_0 \frac{1}{c}\frac{\partial}{\partial t} + \bm{\gamma}_1 \frac{\partial}{\partial x} + \bm{\gamma}_2 \frac{\partial}{\partial y} + \bm{\gamma}_3 \frac{\partial}{\partial z} \right)^2 = \frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2
 $$
 
 Now, since the [octonions](https://en.wikipedia.org/wiki/Octonion) are not associative, there does not exist a subset of basis vectors isomorphic to them. But the complete three dimensional geometric algebra is isomorphic to the [biquaternions](https://en.wikipedia.org/wiki/Biquaternion), in four dimensions the scalar, bivectors and pseudoscalar together are isomorphic to the [split-biquaternions](https://en.wikipedia.org/wiki/Split-biquaternion) and with spacetime the scalar, bivectors and pseudoscalar together are isomorphic to the [split-octonions](https://en.wikipedia.org/wiki/Split-octonion). The "split" comes from the fact that in four dimensions \\( I^2 = (\mathbf{e}_t\mathbf{e}_x\mathbf{e}_y\mathbf{e}_z)^2 = 1 \\).
