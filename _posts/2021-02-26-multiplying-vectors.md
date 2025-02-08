@@ -323,7 +323,7 @@ $$
 One well-known [consequence](https://en.wikipedia.org/wiki/Complex_number#Matrix_representation_of_complex_numbers) of this is that any complex number can be written as:
 
 $$
-  a+bi = a\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix} + b\begin{pmatrix}0 & 1\\ -1 & 0\end{pmatrix} = \begin{pmatrix}a & b\\ -b & a\end{pmatrix}
+  a+bi = a\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix} + b\begin{pmatrix}1 & 0\\ 0 & -1\end{pmatrix}\begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix} = \begin{pmatrix}a & b\\ -b & a\end{pmatrix}
 $$
 
 Applying [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) gives the fact that [rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix) can be expressed as matrix exponential:
