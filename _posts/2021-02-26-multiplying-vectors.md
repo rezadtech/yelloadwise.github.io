@@ -360,13 +360,13 @@ $$
   a+bi+cj+dk = a\begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix} + b\begin{pmatrix}i & 0\\ 0 & -i\end{pmatrix} + c\begin{pmatrix}0 & 1\\ -1 & 0\end{pmatrix} + d\begin{pmatrix}0 & i\\ i & 0\end{pmatrix} = \begin{pmatrix}a+bi & c+di\\ -c+di & a-bi\end{pmatrix}
 $$
 
-In **four dimensions** we can also compose the 2x2 Pauli matrices \\( \bm{\sigma}_i \\) to find:
+In **four dimensions** we can compose the 2x2 Pauli matrices \\( \bm{\sigma}_i \\) to find:
 
 $$
   \mathbf{e}_t = \begin{pmatrix}0 & \mathbf{1}\\ \mathbf{1} & 0\end{pmatrix} \quad \mathbf{e}_x = \begin{pmatrix}-\bm{\sigma}_x & 0\\ 0 & \bm{\sigma}_x\end{pmatrix} \quad \mathbf{e}_y = \begin{pmatrix}-\bm{\sigma}_y & 0\\ 0 & \bm{\sigma}_y\end{pmatrix} \quad \mathbf{e}_z = \begin{pmatrix}-\bm{\sigma}_z & 0\\ 0 & \bm{\sigma}_z\end{pmatrix}
 $$
 
-And the spacetime basis vectors \\( \bm{\sigma}_i \\) correspond to the [gamma matrices](https://en.wikipedia.org/wiki/Gamma_matrices):
+And the spacetime basis vectors \\( \bm{\gamma}_i \\) correspond to the [gamma matrices](https://en.wikipedia.org/wiki/Gamma_matrices):
 
 $$
   \bm{\gamma}_0 = \begin{pmatrix}0 & \mathbf{1}\\ \mathbf{1} & 0\end{pmatrix} \quad \bm{\gamma}_1 = \begin{pmatrix}0 & \bm{\sigma}_x\\ -\bm{\sigma}_x & 0\end{pmatrix} \quad \bm{\gamma}_2 = \begin{pmatrix}0 & \bm{\sigma}_y\\ -\bm{\sigma}_y & 0\end{pmatrix} \quad \bm{\gamma}_3 = \begin{pmatrix}0 & \bm{\sigma}_z\\ -\bm{\sigma}_z & 0\end{pmatrix}
