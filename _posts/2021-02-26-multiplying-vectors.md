@@ -270,17 +270,17 @@ $$
   \mathbf{\nabla}^2 = \left(\bm{\gamma}_0 \frac{1}{c}\frac{\partial}{\partial t} + \bm{\gamma}_1 \frac{\partial}{\partial x} + \bm{\gamma}_2 \frac{\partial}{\partial y} + \bm{\gamma}_3 \frac{\partial}{\partial z} \right)^2 = \frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2
 $$
 
-Now, since the [octonions](https://en.wikipedia.org/wiki/Octonion) are not associative, there does not exist a subset of basis vectors isomorphic to them. But the complete three dimensional geometric algebra is isomorphic to the [biquaternions](https://en.wikipedia.org/wiki/Biquaternion), in four dimensions the scalar, bivectors and pseudoscalar together are isomorphic to the [split-biquaternions](https://en.wikipedia.org/wiki/Split-biquaternion) and with spacetime the scalar, bivectors and pseudoscalar together are isomorphic to the [split-octonions](https://en.wikipedia.org/wiki/Split-octonion). The "split" comes from the fact that in four dimensions \\( \bm{I}^2 = (\mathbf{e}_t\mathbf{e}_x\mathbf{e}_y\mathbf{e}_z)^2 = 1 \\).
+Now, since the [octonions](https://en.wikipedia.org/wiki/Octonion) are not associative, there does not exist a subset of basis vectors isomorphic to them. But the complete three dimensional geometric algebra is isomorphic to the [biquaternions](https://en.wikipedia.org/wiki/Biquaternion), in four dimensions the scalar, bivectors and pseudoscalar together are isomorphic to the [split-biquaternions](https://en.wikipedia.org/wiki/Split-biquaternion) and with spacetime the scalar, bivectors and pseudoscalar together are again isomorphic to the biquaternions.
 
 ### Electromagnetism
 
-Replacing \\( \\{1, \mathbf{e}\_x, \mathbf{e}\_y, \mathbf{e}\_z \\} \\) with \\( \\{\bm{\gamma}\_0, \bm{\gamma}\_1, \bm{\gamma}\_2, \bm{\gamma}\_3 \\} \\) cleans up the equations considerably. Using the usual definitions of the [four-gradient](https://en.wikipedia.org/wiki/Four-vector#Four-gradient) \\( \mathbf{\nabla} = \partial^\mu \bm{\gamma}\_\mu \\), [four-potential](https://en.wikipedia.org/wiki/Four-vector#Electromagnetism) \\( \mathbf{A} = A^\mu \bm{\gamma}\_\mu \\) and [four-current](https://en.wikipedia.org/wiki/Four-vector#Electromagnetism) \\( \mathbf{j} = j^\mu \bm{\gamma}\_\mu \\) yields:
+Replacing \\( \\{1, \mathbf{e}\_x, \mathbf{e}\_y, \mathbf{e}\_z \\} \\) with \\( \\{\bm{\gamma}\_0, \bm{\gamma}\_1, \bm{\gamma}\_2, \bm{\gamma}\_3 \\} \\) cleans up the equations considerably. Using the usual definitions of the [four-gradient](https://en.wikipedia.org/wiki/Four-vector#Four-gradient) \\( \mathbf{\nabla} = \partial^\mu \bm{\gamma}\_\mu \\) and [four-current](https://en.wikipedia.org/wiki/Four-vector#Electromagnetism) \\( \mathbf{j} = j^\mu \bm{\gamma}\_\mu \\) yields:
 
 $$
-   \mathbf{\nabla}\mathbf{A} = \mathbf{F}, \quad \mathbf{\nabla}\mathbf{F} = \mu_0\mathbf{j}, \quad \mathbf{\nabla}^2\mathbf{A} = \mu_0\mathbf{j}
+   \mathbf{\nabla}\mathbf{F} = \mu_0\mathbf{j}
 $$
 
-Here \\( \mathbf{F} = F^{\mu\nu}\bm{\gamma}\_\mu\bm{\gamma}\_\nu \\) is a bivector of the spacetime algebra, whose components \\( F^{\mu\nu} \\) are the \\( \mathbf{E} \\) and \\( \mathbf{B} \\) field.
+Here \\( \mathbf{F} = F^{\mu\nu}\bm{\gamma}\_\mu\bm{\gamma}\_\nu \\) is a bivector of the spacetime algebra, whose components \\( F^{\mu\nu} \\) will be the \\( \mathbf{E} \\) and \\( \mathbf{B} \\) field.
 
 ## Part 5: Scalar and Wedge product
 
