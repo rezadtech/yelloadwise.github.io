@@ -8,9 +8,9 @@ show_excerpts: false
 show_frame: true
 
 navigation:
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/"}
-  - {title: Feed, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "cs@mtnirancell.ir"}
+  - {title: Github, icon: github, url: "https://irancell.ir/"}
+  - {title: Feed, icon: rss, url: "/p/1590/contact-us"}
 
 remote_theme: niklasbuschmann/contrast
 
